@@ -1,0 +1,55 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'stackpath.bootstrapcdn' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 silly cache add args [ 'stackpath.bootstrapcdn', null ]
+6 verbose cache add spec stackpath.bootstrapcdn
+7 silly cache add parsed spec { raw: 'stackpath.bootstrapcdn',
+7 silly cache add   scope: null,
+7 silly cache add   name: 'stackpath.bootstrapcdn',
+7 silly cache add   rawSpec: '',
+7 silly cache add   spec: '*',
+7 silly cache add   type: 'range' }
+8 verbose addNamed stackpath.bootstrapcdn@*
+9 silly addNamed semver.valid null
+10 silly addNamed semver.validRange *
+11 silly addNameRange { name: 'stackpath.bootstrapcdn', range: '*', hasData: false }
+12 silly mapToRegistry name stackpath.bootstrapcdn
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/stackpath.bootstrapcdn
+16 verbose addNameRange registry:https://registry.npmjs.org/stackpath.bootstrapcdn not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/stackpath.bootstrapcdn
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 09:37:01
+20 verbose request id 520f64488e3a2e7b
+21 http request GET https://registry.npmjs.org/stackpath.bootstrapcdn
+22 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+23 info attempt registry request try #2 at 09:37:32
+24 http request GET https://registry.npmjs.org/stackpath.bootstrapcdn
+25 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+26 info attempt registry request try #3 at 09:38:53
+27 http request GET https://registry.npmjs.org/stackpath.bootstrapcdn
+28 verbose stack Error: connect ETIMEDOUT
+28 verbose stack     at exports._errnoException (util.js:746:11)
+28 verbose stack     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1000:19)
+29 verbose cwd C:\train\popular
+30 error Windows_NT 6.3.9600
+31 error argv "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "stackpath.bootstrapcdn"
+32 error node v0.12.2
+33 error npm  v2.7.4
+34 error code ETIMEDOUT
+35 error errno ETIMEDOUT
+36 error syscall connect
+37 error network connect ETIMEDOUT
+37 error network This is most likely not a problem with npm itself
+37 error network and is related to network connectivity.
+37 error network In most cases you are behind a proxy or have bad network settings.
+37 error network
+37 error network If you are behind a proxy, please make sure that the
+37 error network 'proxy' config is set properly.  See: 'npm help config'
+38 verbose exit [ 1, true ]
