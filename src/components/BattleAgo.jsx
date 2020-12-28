@@ -122,7 +122,7 @@ export default class BatteAgo extends React.Component {
           <div className="player1">
             {this.state.oneKey ? (
               <div className="submit1">
-                <img src={0 ? `${this.state.userItem1.owner.avatar_url}?size=200` : `https://github.com/${this.state.userName1}.png?size=200`} alt="API出了点问题" />
+                <img src={0 ? `${this.state.userItem1.owner.avatar_url}?size=200` : `https://github.com/${this.state.userName1}.png?size=200`} alt="出问题了" />
                 <span>{this.state.userName1}</span>
                 <FontAwesomeIcon className="b" icon={faWindowClose} onClick={this.selKey1} />
               </div>

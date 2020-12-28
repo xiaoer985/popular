@@ -23,7 +23,7 @@ export default class Content extends React.Component {
           }}
         >
           <h1 style={{ color: '#2c95b6' }}>#{index + 1}</h1>
-          <h2 style={{ height: '240px' }}><img width="70%" src={item.owner.avatar_url} alt="糟糕，API出了点问题" /></h2>
+          <h2 style={{ height: '240px' }}><img width="70%" src={item.owner.avatar_url} alt="等等，出问题了！" /></h2>
           <h2 style={{
             height: '60px', width: '308px', color: '#c72f32', display: 'table-cell', verticalAlign: 'middle',
           }}
