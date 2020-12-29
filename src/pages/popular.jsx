@@ -79,7 +79,7 @@ export default class Popoular extends React.Component {
       })
       .catch(err => {
         console.error(err);
-        alert("API调用失败，重新刷新试试")
+        alert("API调用失败，重新刷新")
       })
   }
 
